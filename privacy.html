@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HyperCatalog — Privacy Policy</title>
+  <meta name="description" content="HyperCatalog Privacy Policy. Complete offline architecture with zero data collection.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="bg-[#090d16] text-slate-200 antialiased font-sans selection:bg-indigo-500 selection:text-white">
+
+  <!-- Header -->
+  <header class="border-b border-white/10 bg-[#090d16]/80 backdrop-blur-md sticky top-0 z-50">
+    <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-3 hover:opacity-80 transition">
+        <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-indigo-500 to-cyan-400 flex items-center justify-center shadow-lg shadow-indigo-500/20">
+          <i class="fa-solid fa-hard-drive text-white text-base"></i>
+        </div>
+        <span class="font-bold text-lg text-white">HyperCatalog</span>
+      </a>
+      <nav class="flex items-center gap-6 text-sm text-slate-400">
+        <a href="index.html" class="hover:text-white transition">Home</a>
+        <a href="support.html" class="hover:text-white transition">Support</a>
+        <a href="mailto:genkanaiduka@gmail.com" class="px-3.5 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white font-medium transition shadow-md shadow-indigo-600/30">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="max-w-3xl mx-auto px-6 py-14">
+    <!-- Badge -->
+    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-300 text-xs font-medium mb-4">
+      <i class="fa-solid fa-shield-halved"></i>
+      Zero Data Collection Guarantee — 100% On-Device & Offline
+    </div>
+
+    <h1 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">Privacy Policy</h1>
+    <p class="text-xs text-slate-400 mt-2">Effective Date: October 16, 2026 &bull; Version 1.0</p>
+
+    <!-- Policy Sections -->
+    <div class="mt-10 space-y-9 text-slate-300 text-sm leading-relaxed border-b border-white/10 pb-12">
+
+      <section>
+        <h2 class="text-lg font-bold text-white mb-2.5 flex items-center gap-2">
+          <span class="w-1.5 h-4 bg-indigo-500 rounded-full"></span>
+          <span>1. Overview & Commitment to Privacy</span>
+        </h2>
+        <p>
+          HyperCatalog ("the Application") is developed and maintained by <strong>GEN KANAIZUKA</strong> as a standalone macOS utility for indexing and browsing offline external drives and storage volumes.
+        </p>
+        <p class="mt-2">
+          Your privacy is our highest priority. HyperCatalog is architected with a strict privacy-first principle: <strong>we collect zero personal data, track zero user behavior, and transmit no file records or disk contents to any external server or third party.</strong>
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-bold text-white mb-2.5 flex items-center gap-2">
+          <span class="w-1.5 h-4 bg-indigo-500 rounded-full"></span>
+          <span>2. Data Collection: None</span>
+        </h2>
+        <p>
+          When you use HyperCatalog, we do <strong>not</strong> collect:
+        </p>
+        <ul class="list-disc list-inside mt-2 space-y-1.5 text-slate-400 pl-2">
+          <li>Personally identifiable information (such as your name, email, IP address, or Apple ID).</li>
+          <li>File contents, filenames, folder hierarchies, or storage metadata.</li>
+          <li>Usage statistics, session duration, device identifiers, or telemetry.</li>
+          <li>Crash logs or diagnostics unless you explicitly choose to attach them in an email to our support desk.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-bold text-white mb-2.5 flex items-center gap-2">
+          <span class="w-1.5 h-4 bg-indigo-500 rounded-full"></span>
+          <span>3. On-Device Storage & Local Sandboxing</span>
+        </h2>
+        <p>
+          All disk indexing operations take place entirely on your Mac. Metadata such as folder names, file sizes, modification timestamps, and file extension categories are stored exclusively within:
+        </p>
+        <ul class="list-disc list-inside mt-2 space-y-1.5 text-slate-400 pl-2">
+          <li>The application's isolated macOS App Sandbox container.</li>
+          <li>Local portable catalog files (<code>.hcat</code>) or spreadsheets (<code>.csv</code>) explicitly created or exported by you.</li>
+        </ul>
+        <p class="mt-2 text-slate-400">
+          No catalog information is ever uploaded to the cloud, synchronized with third-party servers, or shared with external entities.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-bold text-white mb-2.5 flex items-center gap-2">
+          <span class="w-1.5 h-4 bg-indigo-500 rounded-full"></span>
+          <span>4. Network Activity & Local IPC Loopback</span>
+        </h2>
+        <p>
+          HyperCatalog operates completely offline. The application uses a local loopback network interface (<code>127.0.0.1</code>) solely for internal Inter-Process Communication (IPC) between the native user interface and the local index search engine running on your Mac.
+        </p>
+        <p class="mt-2 text-slate-400">
+          No packets or requests leave your computer. The application functions flawlessly with Wi-Fi, Ethernet, and all network connections completely disabled.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-bold text-white mb-2.5 flex items-center gap-2">
+          <span class="w-1.5 h-4 bg-indigo-500 rounded-full"></span>
+          <span>5. Third-Party Services, SDKs & Advertising</span>
+        </h2>
+        <p>
+          HyperCatalog contains:
+        </p>
+        <ul class="list-disc list-inside mt-2 space-y-1.5 text-slate-400 pl-2">
+          <li><strong>No advertising networks or SDKs.</strong></li>
+          <li><strong>No third-party analytics (e.g., Google Analytics, Mixpanel, Firebase).</strong></li>
+          <li><strong>No user tracking cookies or behavioral fingerprinting.</strong></li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-bold text-white mb-2.5 flex items-center gap-2">
+          <span class="w-1.5 h-4 bg-indigo-500 rounded-full"></span>
+          <span>6. File System Permissions & Disk Access</span>
+        </h2>
+        <p>
+          In accordance with macOS security requirements, HyperCatalog will prompt you for permission before indexing a connected volume or removable disk. HyperCatalog only reads file metadata (names, sizes, directory paths, and dates) necessary to construct the catalog. It never alters, overwrites, or deletes your physical files.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-bold text-white mb-2.5 flex items-center gap-2">
+          <span class="w-1.5 h-4 bg-indigo-500 rounded-full"></span>
+          <span>7. Children's Privacy</span>
+        </h2>
+        <p>
+          Because HyperCatalog collects no data whatsoever, it complies fully with the Children's Online Privacy Protection Act (COPPA), GDPR, and applicable privacy regulations worldwide.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-bold text-white mb-2.5 flex items-center gap-2">
+          <span class="w-1.5 h-4 bg-indigo-500 rounded-full"></span>
+          <span>8. Policy Updates</span>
+        </h2>
+        <p>
+          If this Privacy Policy is updated, changes will be posted to this page with an updated effective date. Given our strict offline design, our commitment to zero data collection remains permanent.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-bold text-white mb-2.5 flex items-center gap-2">
+          <span class="w-1.5 h-4 bg-indigo-500 rounded-full"></span>
+          <span>9. Contact Information</span>
+        </h2>
+        <p>
+          If you have any questions, feedback, or concerns regarding this Privacy Policy or the security of HyperCatalog, please contact the developer directly:
+        </p>
+        <div class="mt-4 p-5 rounded-2xl bg-slate-900/60 border border-white/10 text-xs sm:text-sm">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+            <div>
+              <div class="font-bold text-white text-base">GEN KANAIZUKA</div>
+              <div class="text-slate-400 mt-0.5">Independent Developer of HyperCatalog</div>
+            </div>
+            <div>
+              <a href="mailto:genkanaiduka@gmail.com" class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-medium text-xs sm:text-sm transition shadow-md shadow-indigo-600/30">
+                <i class="fa-solid fa-envelope"></i>
+                <span>genkanaiduka@gmail.com</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Summary Box -->
+    <div class="mt-8 p-6 rounded-2xl bg-gradient-to-br from-indigo-950/30 to-cyan-950/20 border border-indigo-500/20">
+      <h3 class="text-sm font-semibold text-indigo-300 flex items-center gap-2">
+        <i class="fa-solid fa-circle-check text-emerald-400"></i>
+        <span>Summary in Plain English</span>
+      </h3>
+      <p class="text-xs text-slate-400 mt-2 leading-relaxed">
+        HyperCatalog is a completely offline, private tool for your Mac. It never contacts external servers, never tracks you, and keeps all your data strictly on your machine. You own 100% of your data at all times.
+      </p>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-white/10 py-10 bg-[#060910] text-center text-xs text-slate-500 mt-12">
+    <div class="max-w-4xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div>© 2026 GEN KANAIZUKA. All rights reserved.</div>
+      <div class="flex items-center gap-6">
+        <a href="index.html" class="hover:text-slate-300 transition">Home</a>
+        <a href="support.html" class="hover:text-slate-300 transition">Support</a>
+        <a href="mailto:genkanaiduka@gmail.com" class="hover:text-slate-300 transition">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
